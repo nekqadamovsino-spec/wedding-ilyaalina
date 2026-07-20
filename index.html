@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Илья & Алина — свадебное приглашение</title>
+  <meta property="og:title" content="Илья & Алина — свадебное приглашение">
+  <meta property="og:description" content="12 сентября 2026 года">
+  <meta property="og:image" content="preview.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="envelopeScreen" class="envelope-screen" aria-label="Открыть свадебное приглашение">
+    <div class="envelope-scene">
+      <div class="envelope-sparkles" aria-hidden="true"></div>
+      <button id="openEnvelope" class="envelope-button" type="button" aria-label="Открыть приглашение">
+        <span class="envelope" aria-hidden="true">
+          <span class="envelope-back"></span>
+          <span class="envelope-letter">
+            <span class="letter-border"></span>
+            <span class="envelope-monogram">И <i>&amp;</i> А</span>
+            <span class="letter-date">12 · 09 · 2026</span>
+          </span>
+          <span class="envelope-flap"></span>
+          <span class="envelope-pocket envelope-pocket-left"></span>
+          <span class="envelope-pocket envelope-pocket-right"></span>
+          <span class="envelope-pocket envelope-pocket-bottom"></span>
+          <span class="envelope-branch envelope-branch-left">❦</span>
+          <span class="envelope-branch envelope-branch-right">❦</span>
+          <span class="envelope-seal">
+            <span class="seal-ring"></span>
+            <span class="seal-initials">И&amp;А</span>
+          </span>
+        </span>
+        <span class="envelope-text">Нажмите, чтобы открыть приглашение</span>
+        <span class="envelope-arrow" aria-hidden="true">⌄</span>
+      </button>
+    </div>
+  </div>
+  <div class="music-control">
+  <button id="musicToggle" class="music-btn" aria-label="Музыка">
+    ♫
+  </button>
+
+  <div id="musicHint" class="music-hint">
+    <span class="music-arrow">↖</span>
+    <span>Нажми, чтобы<br>заиграла музыка</span>
+  </div>
+</div>
+  <nav class="nav">
+    <a href="#invite">Приглашение</a>
+    <a href="#date">Дата</a>
+    <a href="#dresscode">Дресс-код</a>
+    <a href="#wishes">Пожелания</a>
+    <a href="#rsvp">Подтвердить</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="monogram">И <span>&</span> А</div>
+      <h1>Илья<br><span>&</span><br>Алина</h1>
+      <p class="date-line">12 сентября 2026</p>
+      <p class="hero-phrase">Мы говорим друг другу главное «да»</p>
+      <a href="#invite" class="scroll">Листайте вниз</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="invite" class="section invite">
+      <div class="ornament">❦</div>
+      <h2 class="script">Дорогие наши!</h2>
+      <p>В нашей жизни наступает день, который мы хотим разделить с самыми близкими людьми.</p>
+      <p>Приглашаем вас стать частью нашей свадебной истории — тёплой, красивой и наполненной любовью.</p>
+      <p>Ваше присутствие сделает этот день ещё счастливее.</p>
+      <p class="signature">С любовью, Илья и Алина</p>
+    </section>
+
+    <section class="countdown-fullscreen">
+  <img src="gallery7.jpg" alt="Илья и Алина" class="countdown-bg">
+
+  <div class="countdown-dark"></div>
+
+  <div class="countdown-full-content">
+    <h2 class="countdown-names">
+      Илья<br>
+      <span>&</span><br>
+      Алина
+    </h2>
+
+    <div class="countdown-date">12 сентября 2026</div>
+
+    <div class="countdown-line">
+      <span></span>
+      <b>♡</b>
+      <span></span>
+    </div>
+
+    <div class="countdown-title">Осталось до свадьбы:</div>
+
+    <div class="countdown-timer">
+      <div>
+        <span id="days">00</span>
+        <small>дней</small>
+      </div>
+
+      <div class="timer-separator"></div>
+
+      <div>
+        <span id="hours">00</span>
+        <small>часов</small>
+      </div>
+
+      <div class="timer-separator"></div>
+
+      <div>
+        <span id="minutes">00</span>
+        <small>минут</small>
+      </div>
+
+      <div class="timer-separator"></div>
+
+      <div>
+        <span id="seconds">00</span>
+        <small>секунд</small>
+      </div>
+    </div>
+    </section>
+<section class="location">
+
+  <div class="location-overlay"></div>
+
+  <div class="location-card">
+
+    <span class="location-label">КОГДА И ГДЕ</span>
+
+    <h2>14 августа<br>2026 года</h2>
+
+    <div class="location-divider"></div>
+
+    <div class="location-item">
+      <span>МЕСТО</span>
+      <p>ресторан Villa Verde</p>
+    </div>
+
+    <div class="location-divider"></div>
+
+    <div class="location-item">
+      <span>АДРЕС</span>
+      <p>
+        г. Краснодар, ул. Мира, 60
+      </p>
+    </div>
+
+    <a
+      href="https://yandex.ru/maps/?text=Краснодар%2C%20улица%20Мира%2C%2060%2C%20ресторан%20Villa%20Verde"
+      target="_blank"
+      class="location-btn"
+    >
+      Открыть карту
+    </a>
+
+  </div>
+
+</section>
+    <section id="program" class="section program-section">
+  <p class="overline dark">Программа дня</p>
+  <h2>В этот день</h2>
+    <div class="program-item">
+    <div class="program-time">15:00</div>
+    <div class="program-content">
+        <h3>Начало мероприятия и сбор гостей</h3>
+        <p>Будем рады видеть вас на нашем празднике. Просим гостей прибыть к 15:00.</p>
+    </div>
+</div>
+</section>
+    <section id="dresscode" class="section story dresscode-section">
+      <div class="story-text">
+        <p class="overline dark">Дресс-код</p>
+        <h2>Естественные природные оттенки</h2>
+        <p>Нам будет приятно, если вы поддержите атмосферу праздника и выберете наряды естественных природных оттенков.</p>
+        <div class="palette">
+          <span style="background:#F3EAC3"></span>
+          <span style="background:#CD9C95"></span>
+          <span style="background:#d8b894"></span>
+          <span style="background:#a88b72"></span>
+          <span style="background:#6f7b55"></span>
+          <span style="background:#b8c9ad"></span>
+          <span style="background:#b8cdda"></span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="wishes" class="section place wishes-section">
+      <p class="overline dark">Наши пожелания для гостей</p>
+      <h2>Для вашего комфорта</h2>
+      <div class="wishes-card">
+        <p>Не забудьте взять с собой улыбки, хорошее настроение и удобную обувь для танцев.</p>
+        <p>Пожалуйста, не утруждайте себя выбором и поиском подарков — мы будем очень рады вашим пожеланиям в конвертах. Обещаем потратить их с умом (или безумством 🤭).</p>
+        <p>Подарите себе вечер отдыха! По возможности, оставьте детей под присмотром и позвольте себе по-настоящему расслабиться, забыть о хлопотах и повеселиться с нами до позднего вечера ✨</p>
+        <p>Если вы планировали подарить букет, мы будем признательны, если вы замените его на бутылочку вашего любимого алкоголя с пожеланием открыть в определённую дату, хорошего чая или настольную игру. Нам будет очень приятно пользоваться ими после праздника.</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <p class="overline dark">Галерея</p>
+      <h2>Наши моменты</h2>
+      <div class="gallery">
+        <img src="gallery8.jpg" alt="Илья и Алина" />
+        <img src="gallery4.jpg" alt="Свадебное настроение" />
+        <img src="gallery5.jpg" alt="Свадебное настроение" />
+        <img src="gallery6.jpg" alt="Свадебное настроение" />
+        <img src="gallery7.jpg" alt="Свадебное настроение" />
+        <img src="gallery9.jpg" alt="Свадебное настроение" />
+      </div>
+    </section>
+  
+    <section id="rsvp" class="section rsvp">
+<section class="screen rsvp">
+      <div class="ornament">❦</div>
+      <h2>Подтвердите присутствие</h2>
+      <p>Пожалуйста, сообщите нам заранее, сможете ли вы быть с нами в этот день.</p>
+      <form onsubmit="sendRSVP(event)">
+        <input id="guestName" type="text" placeholder="Ваше имя" required>
+        <select id="guestAnswer" required>
+          <option value="">Выберите ответ</option>
+          <option>Буду присутствовать</option>
+          <option>К сожалению, не смогу</option>
+        </select>
+        <textarea id="guestComment" placeholder="Аллергия / пожелания по меню" rows="4"></textarea>
+        <button type="submit">Подтвердить</button>
+      </form>
+      <p id="formResult" class="form-result"></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="monogram small">И <span>&</span> А</div>
+    <p>12.09.2026</p>
+  </footer>
+<audio id="bgMusic" loop>
+    <source src="privet.mp3" type="audio/mpeg">
+</audio>
+  <script src="script.js"></script>
+</body>
+</html>
