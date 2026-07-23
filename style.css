@@ -498,6 +498,7 @@ body.envelope-locked{overflow:hidden}
   align-items: center;
   justify-content: center;
   background:
+url("abu.jpg") center center / cover no-repeat;
   overflow: hidden;
 }
 
